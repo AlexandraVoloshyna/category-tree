@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Category Tree Styling */
+.category-tree {
+  padding-left: 0;
+}
+
+.category-item {
+  margin: 5px 0;
+  padding-left: 20px;
+
+}
+
+.category-item div {
+  display: flex;
+  align-items: center;
+}
+
+.category-item span {
+  font-weight: bold;
+}
+
+.category-item ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
